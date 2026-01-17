@@ -768,9 +768,9 @@ hr {
 }
 
 /* Specific school overrides */
-.tile.tile-2 .tile-inner { background-color: #003591 !important; background-image: url("../assets/hofstra.png") !important; }
+.tile.tile-2 .tile-inner { background-color: #ffffff !important; background-image: url("../assets/hofstra.png") !important; }
 .tile.tile-4 .tile-inner { background-color: #000000 !important; background-image: url("../assets/campbell.png") !important; }
-.tile.tile-8 .tile-inner { background-color: #73000a !important; background-image: url("../assets/elon.png") !important; }
+.tile.tile-8 .tile-inner { background-color: #ffffff !important; background-image: url("../assets/elon.png") !important; }
 .tile.tile-16 .tile-inner { background-color: #00263e !important; background-image: url("../assets/monmouth.png") !important; }
 .tile.tile-32 .tile-inner { background-color: #ffbb00 !important; background-image: url("../assets/towson.png") !important; }
 .tile.tile-64 .tile-inner { background-color: #660000 !important; background-image: url("../assets/charleston.png") !important; }
