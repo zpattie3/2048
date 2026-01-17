@@ -774,8 +774,8 @@ hr {
 .tile.tile-16 .tile-inner { background-color: #00263e !important; background-image: url("../assets/monmouth.png") !important; }
 .tile.tile-32 .tile-inner { background-color: #ffbb00 !important; background-image: url("../assets/towson.png") !important; }
 .tile.tile-64 .tile-inner { background-color: #660000 !important; background-image: url("../assets/charleston.png") !important; }
-.tile.tile-128 .tile-inner { background-color: #07294d !important; background-image: url("../assets/drexel.png") !important; }
-.tile.tile-256 .tile-inner { background-color: #990000 !important; background-image: url("../assets/stonybrook.png") !important; }
+.tile.tile-128 .tile-inner { background-color: #ffc600 !important; background-image: url("../assets/drexel.png") !important; }
+.tile.tile-256 .tile-inner { background-color: #ffffff !important; background-image: url("../assets/stonybrook.png") !important; }
 .tile.tile-512 .tile-inner { background-color: #004c97 !important; background-image: url("../assets/delaware.png") !important; }
 .tile.tile-1024 .tile-inner { background-color: #115740 !important; background-image: url("../assets/williammary.png") !important; }
 .tile.tile-2048 .tile-inner { 
