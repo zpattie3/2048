@@ -756,3 +756,30 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+    /* --- CAA MEGA-OVERRIDE --- */
+/* This part ensures the logos fit and numbers disappear */
+.tile .tile-inner {
+  background-size: 85% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  color: transparent !important; /* Hides the numbers */
+  font-size: 0 !important;        /* Extra insurance to hide numbers */
+}
+
+/* Specific school overrides */
+.tile.tile-2 .tile-inner { background-color: #003591 !important; background-image: url("../assets/hofstra.png") !important; }
+.tile.tile-4 .tile-inner { background-color: #000000 !important; background-image: url("../assets/campbell.png") !important; }
+.tile.tile-8 .tile-inner { background-color: #73000a !important; background-image: url("../assets/elon.png") !important; }
+.tile.tile-16 .tile-inner { background-color: #00263e !important; background-image: url("../assets/monmouth.png") !important; }
+.tile.tile-32 .tile-inner { background-color: #ffbb00 !important; background-image: url("../assets/towson.png") !important; }
+.tile.tile-64 .tile-inner { background-color: #660000 !important; background-image: url("../assets/charleston.png") !important; }
+.tile.tile-128 .tile-inner { background-color: #07294d !important; background-image: url("../assets/drexel.png") !important; }
+.tile.tile-256 .tile-inner { background-color: #990000 !important; background-image: url("../assets/stonybrook.png") !important; }
+.tile.tile-512 .tile-inner { background-color: #004c97 !important; background-image: url("../assets/delaware.png") !important; }
+.tile.tile-1024 .tile-inner { background-color: #115740 !important; background-image: url("../assets/williammary.png") !important; }
+.tile.tile-2048 .tile-inner { 
+    background-color: #c41230 !important; 
+    background-image: url("../assets/northeastern.png") !important;
+    box-shadow: 0 0 30px 10px rgba(196, 18, 48, 0.4) !important; 
+}
