@@ -180,14 +180,18 @@ GameManager.prototype.move = function (direction) {
   });
 
   if (moved) {
+  // Math.random() returns a decimal between 0 and 1.
+  // 0.75 represents the 75% chance.
+  if (Math.random() < 0.75) {
     this.addRandomTile();
-
-    if (!this.movesAvailable()) {
-      this.over = true; // Game over!
-    }
-
-    this.actuate();
   }
+
+  if (!this.movesAvailable()) {
+    this.over = true; // Game over!
+  }
+
+  this.actuate();
+}
 };
 
 // Get the vector representing the chosen direction
